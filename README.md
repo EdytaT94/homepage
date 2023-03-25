@@ -1,4 +1,4 @@
-# Edyta Trzebska - moja strona
+# Edyta Trzebska - my page
 
 ![Edyta](https://github.com/EdytaT94/homepage/blob/master/images/edyta.jpg?raw=true)
 
@@ -6,6 +6,6 @@
 
 https://edytat94.github.io/homepage/
 
-## Opis
+## Description
 
-Pierwsza strona do ćwiczeń i nauki.
+My first page for learning and practising.
