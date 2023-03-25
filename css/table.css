@@ -1,0 +1,35 @@
+.section__tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.table__caption {
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.table__row:nth-child(even) {
+    background-color: #d8af7d;
+}
+
+.table__row:hover {
+    background-color: #de9234;
+}
+
+.table__cell {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__header {
+    background-color: #401F1F;
+    color: white;
+}

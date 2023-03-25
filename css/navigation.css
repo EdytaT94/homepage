@@ -1,0 +1,27 @@
+.navigation {
+    background-color: #a8e0d4;
+    text-align: center;
+    max-width: 1000px;
+    margin: 50px 50px 5px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.navigation__listItem {
+    margin: 5px 0;
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: violet;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: rgb(234, 82, 234);
+}
