@@ -1,6 +1,6 @@
 # Edyta Trzebska - my page
 
-![Edyta]https://github.com/EdytaT94/homepage/blob/master/images/edyta.jpg
+![Edyta](https://github.com/EdytaT94/homepage/blob/master/images/edyta.jpg?raw=true)
 
 ## Demo
 
