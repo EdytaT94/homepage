@@ -1,13 +1,23 @@
-console.log("Witam wszystkich!");
+{
+  const welcome = () => {
+    console.log("Witam wszystkich!");
+  };
 
-let button = document.querySelector(".js-header__button");
-let body = document.querySelector(".body");
-let colorSwitch = document.querySelector(".js-header__colorSwitch");
+  const toggleBackground = () => {
+    const body = document.querySelector(".body");
+    const colorSwitch = document.querySelector(".js-header__colorSwitch");
+    body.classList.toggle("body--dark");
+    colorSwitch.innerText = body.classList.contains("body--dark")
+      ? "białe"
+      : "fioletowe";
+  };
 
-button.addEventListener("click", () => {
-  body.classList.toggle("body--dark");
+  const init = () => {
+    const button = document.querySelector(".js-header__button");
+    button.addEventListener("click", toggleBackground);
 
-  colorSwitch.innerText = body.classList.contains("body--dark")
-    ? "białe"
-    : "fioletowe";
-});
+    welcome();
+  };
+
+  init();
+}
